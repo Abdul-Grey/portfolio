@@ -1,0 +1,84 @@
+body, html {
+  height: 100%;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+#nav-bar {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: whitesmoke;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  font-size: xx-large;
+  align-items: center;
+  box-shadow: 2px 2px 1px 1px #ccc, 0px 0px 1px 1px #ccc;
+}
+
+a:visited, a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#main-section {
+  position: relative;
+  z-index: -1;
+  text-align: justify;
+  top: 3em;
+  font-size: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  box-shadow: 3px 3px 2px 1px #ccc, 0px 0px 2px 1px #ccc;
+}
+
+.section-elements {
+  padding: 5%;
+}
+
+.passage {
+  font-size: x-large;
+}
+
+#contact {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  background-color: whitesmoke;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  font-size: xx-large;
+  align-items: center;
+  box-shadow: -2px -2px 1px 1px #ccc, 0px 0px 1px 1px #ccc;
+}
+
+#projects {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+}
+
+figure figcaption {
+  font-size: 0.8em;
+  font-weight: bold;
+}
